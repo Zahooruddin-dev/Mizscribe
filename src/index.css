@@ -5,10 +5,10 @@
 /* CSS Custom Properties for Design System */
 :root {
   /* Color System */
-  --color-primary: #2dd4bf;
+  --color-primary: #59c6b7;
   --color-primary-dark: #0d9488;
   --color-primary-darker: #0f766e;
-  --color-accent: #22d3ee;
+  --color-accent: #84d6e3;
   
   /* Spacing System */
   --space-xs: clamp(0.75rem, 0.75vw, 1rem);
@@ -166,6 +166,10 @@ h1, h2, h3, h4, h5, h6 {
 .button:active {
   transform: translateY(0);
 }
+.text-blue-400{
+  color: rgb(226 228 231);
+
+}
 
 /* Modern Form Elements */
 .input {
@@ -175,7 +179,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: border-color var(--transition-fast) var(--ease-out),
               box-shadow var(--transition-fast) var(--ease-out);
 }
-
+.px-4{
+  background: #4c6075;
+}
 .input:hover {
   border-color: rgba(45, 212, 191, 0.3);
 }
